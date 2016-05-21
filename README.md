@@ -32,6 +32,5 @@ This project contains the following:
 
 * **Multi:** Multiple functions each containing a single endpoint
 * **Single:** A single function that uses multiple endpoints.
-* **Optimizer Plugin:**  Each function is automatically optimized via the [serverless-optimizer-plugin](https://www.github.com/serverless/serverless-optimizer-plugin)
 * **Templates:** Templates are used to reduce configuraton syntax
 * **REST API Parameters:** The Multi/Show function endpoint gives an example of how to accept a path parameter
