@@ -1,0 +1,24 @@
+{
+  "name": "serverless-starter-python",
+  "version": "0.2.1",
+  "description": "A bare bones Serverless Framework project with examples for common use cases in Python.",
+  "author": {
+    "name": "Alex Casalboni"
+  },
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexcasalboni/serverless-starter-python.git"
+  },
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/alexcasalboni/serverless-starter-python/issues"
+  },
+  "homepage": "https://github.com/serverless/serverless-starter#readme",
+  "scripts": {},
+  "_npmOperationalInternal": {
+    "host": "packages-13-west.internal.npmjs.com",
+    "tmp": "tmp/serverless-starter-0.2.1.tgz_1458892667270_0.7738919164985418"
+  }
+}
