@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/alexcasalboni/serverless-starter-python/issues"
   },
-  "homepage": "https://github.com/serverless/serverless-starter#readme",
+  "homepage": "https://github.com/alexcasalboni/serverless-starter-python#readme",
   "scripts": {},
   "_npmOperationalInternal": {
     "host": "packages-13-west.internal.npmjs.com",
