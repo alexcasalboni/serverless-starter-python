@@ -32,5 +32,6 @@ This project contains the following:
 
 * **Multi:** Multiple functions each containing a single endpoint
 * **Single:** A single function that uses multiple endpoints.
+* **Continent:** A real-world example with Python requirements and response mapping.
 * **Templates:** Templates are used to reduce configuraton syntax
 * **REST API Parameters:** The Multi/Show function endpoint gives an example of how to accept a path parameter
