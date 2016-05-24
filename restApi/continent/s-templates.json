@@ -5,9 +5,7 @@
     }
   },
   "apiResponseModelsError": {
-    "application/json": {
-      "application/json;charset=UTF-8": "Error"
-    }
+    "application/json": "Error"
   },
   "apiResponseTemplateError": {
     "application/json": {
