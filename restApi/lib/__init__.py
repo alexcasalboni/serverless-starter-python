@@ -1,23 +1,22 @@
 """ Lib """
 
-def single_all(event):
-    """ Single - All """
-    method = event.get('httpMethod') or "?"
-    msg = "Your Serverless function ran successfully via the '%s' method" % method
-    return {
-        "message": msg,
-    }
+LIBS_PATH = "../vendored"
 
-def multi_create(event):
-    """ Multi - Create """
-    return {
-        "message": "Your Serverless function 'multi/create' ran successfully",
-    }
+# add vendored folder to sys path
+import sys, os
+here = os.path.dirname(os.path.realpath(__file__))
+sys.path.append(os.path.join(here, LIBS_PATH))
 
-def multi_show(event):
-    """ Multi - Show """
-    pid = event['pathId']
-    msg = "Your Serverless function 'multi/show' ran successfully ith the following ID '%s'" % pid
-    return {
-        "message": msg,
-    }
+# Manually load OS libraries
+# ref: https://serverlesscode.com/post/deploy-scikitlearn-on-lamba/
+import ctypes
+for d, dirs, files in os.walk(LIBS_PATH):
+    for f in files:
+        if ".so" in f:
+            ctypes.cdll.LoadLibrary(os.path.join(d, f))
+
+
+# expose libraries in module scope
+from single import single_all
+from multi import multi_create, multi_show
+from continent import continent_by_country_name
