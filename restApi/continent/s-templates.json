@@ -1,0 +1,17 @@
+{
+  "apiRequestTemplate": {
+    "application/json": {
+      "country": "$input.params('country')"
+    }
+  },
+  "apiResponseModelsError": {
+    "application/json": {
+      "application/json;charset=UTF-8": "Error"
+    }
+  },
+  "apiResponseTemplateError": {
+    "application/json": {
+      "message": "$input.path('$.errorMessage')"
+    }
+  }
+}
