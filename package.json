@@ -1,6 +1,6 @@
 {
   "name": "serverless-starter-python",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "A bare bones Serverless Framework project with examples for common use cases in Python.",
   "author": {
     "name": "Alex Casalboni"
