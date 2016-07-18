@@ -21,6 +21,21 @@ Install project dependencies via npm:
 npm install
 ```
 
+Install Python dependencies via pip:
+```
+pip install -t restApi/vendored/ -r restApi/requirements.txt
+```
+
+or via virtualenv:
+```
+virtualenv myenv
+source myenv/bin/activate
+pip install -r restApi/requirements.txt
+cp -R myenv/lib/python2.7/site-packages/* restApi/vendored/
+```
+
+
+
 Deploy your functions and endpoints:
 ```
 serverless dash deploy
