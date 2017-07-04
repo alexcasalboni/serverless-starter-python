@@ -1,10 +1,10 @@
-#Serverless Starter
+# Serverless Starter
 
 [![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
 
 A bare bones Serverless Framework project with examples for common use cases in Python.
 
-##Install
+## Install
 
 Make sure you have the [Serverless Framework](http://www.serverless.com) installed and you're using Node.js v4.0+. 
 ```
@@ -41,7 +41,7 @@ Deploy your functions and endpoints:
 serverless dash deploy
 ```
 
-##Includes
+## Includes
 
 This project contains the following:
 
