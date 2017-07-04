@@ -1,8 +1,10 @@
-# Serverless Starter
+# [DEPRECATED] Serverless Starter
 
 [![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
 
 A bare bones Serverless Framework project with examples for common use cases in Python.
+
+[DEPRECATED] This serverless Python starter is deprecated. The new official python sample is [here](https://github.com/bennybauer/serverless-python-sample).
 
 ## Install
 
